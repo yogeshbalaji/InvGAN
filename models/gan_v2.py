@@ -196,12 +196,6 @@ class DefenseGANv2(AbstractModel):
         self.input_pl_transform()
 
         self.encoder_latent_before = self.encoder_fn(self.real_data, is_training=self.encoder_training)[0]
-        # self.encoder_latent = tf.contrib.layers.batch_norm(
-        #     self.encoder_latent_before, decay=0.9, epsilon=1e-3,
-        #     scale=False,
-        #     is_training=self.encoder_training,
-        #     scope='Encoder'
-        # )
         self.encoder_latent = self.encoder_latent_before
 
         tf.summary.histogram('Encoder latents', self.encoder_latent)
