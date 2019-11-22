@@ -1,0 +1,5 @@
+CFG: 'experiments/cfgs/gans/cifar10_hinge_resnet.yml'
+LOSS_TYPE: 'margin'
+LR: [0.0001, 0.0002, 0.0004]
+NUM_GPUS: 2
+INIT_PATH: 'output/gans/cifar10_hinge_resnet'

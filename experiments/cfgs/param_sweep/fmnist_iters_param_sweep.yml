@@ -1,0 +1,4 @@
+CFG: 'experiments/cfgs/gans_inv_notrain/fmnist.yml'
+REC_ITER: [0, 1, 20, 40, 60, 80, 100, 200, 400]
+REC_LR: [0.1]
+NUM_GPUS: 2

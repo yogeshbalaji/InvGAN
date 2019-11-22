@@ -1,0 +1,6 @@
+CFG: 'experiments/cfgs/gans/cifar10_hinge_resnet.yml'
+REC_ITER: [1, 2, 3]
+REC_RR: [1, 4, 8]
+REC_LR: [10, 1, 0.1]
+NUM_GPUS: 2
+INIT_PATH: 'output/gans/cifar10_hinge_resnet'
