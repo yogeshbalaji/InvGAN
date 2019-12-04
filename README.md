@@ -7,7 +7,7 @@
 mkdir <path-to-invgan>
 cd <path-to-invgan>
 ```
-2. `git clone git@github.com:invgan/rebuttal.git invgan`
+2. `git clone git@github.com:yogeshbalaji/InvGAN.git invgan`
 3. `cd invgan` Now you should be in the project root directory. 
 4. Run the setup script `./setup.sh`
 5. Download datasets:
