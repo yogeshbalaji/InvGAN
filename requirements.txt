@@ -6,7 +6,7 @@ opencv-python==3.4.0.12
 scikit-image==0.13.1
 matplotlib==2.1.2
 tqdm==4.28.1
-tensorflow==1.12.0
+tensorflow==2.9.3
 nose
 pycodestyle
 mnist==0.2
